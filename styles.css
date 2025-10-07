@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
  .container {
           display: flex;
+	 gap:5px;
           width: 600px;
           height: 300px;
         }
