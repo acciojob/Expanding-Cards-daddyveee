@@ -22,3 +22,11 @@
         .active {
           width: 50%;
         }
+
+        .panel .img-text {
+            display: none;
+        }
+
+        .active .img-text {
+        display: block;
+        }
