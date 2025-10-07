@@ -8,6 +8,7 @@
           width: 10%;
           background-size: cover;
           background-position: center;
+			border-radius:30px;
           cursor: pointer;
           display: flex;
           align-items: flex-end;
