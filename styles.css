@@ -1,1 +1,22 @@
 /*  your css code here. If applicable */
+ .container {
+          display: flex;
+          width: 600px;
+          height: 300px;
+        }
+        .panel {
+          width: 10%;
+          background-size: cover;
+          background-position: center;
+          cursor: pointer;
+          display: flex;
+          align-items: flex-end;
+          color: white;
+          padding: 10px;
+          font-size: 20px;
+          transition: width 0.5s ease-in-out;
+        }
+
+        .active {
+          width: 50%;
+        }
